@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { LogOut } from 'lucide-react'
-import githubService from '../services/githubService'
 
 function Einstellungen() {
   const [showLogout, setShowLogout] = useState(false)

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Edit2, AlertTriangle } from 'lucide-react'
+import { Edit2 } from 'lucide-react'
 import dataService from '../services/dataService'
 import { Bestand, Artikel as ArtikelType } from '../types'
 
@@ -117,7 +117,7 @@ function Warenbestand() {
                       <div className="flex gap-2 justify-center">
                         <button
                           onClick={() => handleSave(b.artikel_id)}
-                          className="bg-honey text-white px-2 py-1 rounded text-sm"
+                          className="bg-yellow-500 text-white px-2 py-1 rounded text-sm"
                         >
                           Speichern
                         </button>

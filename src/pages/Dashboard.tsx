@@ -56,7 +56,7 @@ function Dashboard() {
           icon={DollarSign}
           label="Gesamtumsatz"
           value={`€${stats.gesamtumsatz.toFixed(2)}`}
-          color="text-honey"
+          color="text-yellow-500"
         />
         <StatCard
           icon={ShoppingCart}
